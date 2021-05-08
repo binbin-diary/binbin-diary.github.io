@@ -79,8 +79,8 @@ $ git clone git@github.com:Huxpro/huxblog-boilerplate.git
 
 ```
 # Site settings
-title: Hux Blog             # 你的博客网站标题
-SEOTitle: Hux Blog			# 在后面会详细谈到
+title: Bin Blog             # 你的博客网站标题
+SEOTitle: Bin Blog			# 在后面会详细谈到
 description: "Cool Blog"    # 随便说点，描述一下
 
 # SNS settings      

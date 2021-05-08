@@ -53,8 +53,8 @@ You can easily customize the blog by modifying `_config.yml`:
 
 ```yml
 # Site settings
-title: Hux Blog             # title of your website
-SEOTitle: Hux Blog          # check out docs for more detail
+title: Bin Blog             # title of your website
+SEOTitle: Bin Blog          # check out docs for more detail
 description: "Cool Blog"    # ...
 
 # SNS settings      
