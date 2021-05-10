@@ -2,7 +2,7 @@
 title: Bin Blog
 SEOTitle: 伍彬彬的博客 | Bin Blog
 header-img: img/home-bg.jpg
-email: huxpro@gmail.com
+email: binbin2556@163.com
 description: "关于程序与设计 | Bin，Web & Mobile Lover，Software Engineer，UX Designer"
 keyword: "Bin Blog, 博客, 个人网站, 互联网, Web, JavaScript, 前端, 设计"
 url: "https://binbin-diary.github.io/"  # your host, for absolute URL
@@ -13,11 +13,11 @@ future: true
 
 # SNS settings
 RSS: false
-weibo_username:     huxpro
-zhihu_username:     huxpro
-github_username:    huxpro
-twitter_username:   huxpro
-#facebook_username:  huxpro
+# weibo_username:   binbin-diary
+# zhihu_username:   binbin-diary
+github_username:    binbin-diary
+# twitter_username:  binbin-diary
+#facebook_username:  binbin-diary
 #linkedin_username:  firstname-lastname-idxxxx
 
 
@@ -59,7 +59,7 @@ kramdown:
 
 
 # Disqus settings
-disqus_username: hux
+disqus_username: binbin-diary
 
 # Netease settings
 netease_comment: false
@@ -71,8 +71,8 @@ netease_comment: false
 # ba_track_id: [your track id]
 
 # Google Analytics
-ga_track_id: 'UA-49627206-1'            # Format: UA-xxxxxx-xx
-ga_domain: huangxuan.me
+# ga_track_id: 'UA-49627206-1'            # Format: UA-xxxxxx-xx
+# ga_domain: 
 
 
 
