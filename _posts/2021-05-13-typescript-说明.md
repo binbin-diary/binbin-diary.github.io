@@ -126,3 +126,42 @@ tags:
       }
 
     }
+
+##### 7. Typescript 联合类型及类型保护
+
+    {
+        interface Form {
+          name: string;
+          getName: Function;
+        }
+
+        interface ParamsForm {
+          name: string;
+          getAge: Function;
+        }
+
+        // 通过类型断言 as 来进行类型保护
+        function getParams(first: Form | ParamsForm) {
+          if (first.name) {
+            (first as Form).getName();
+          }
+          (first as ParamsForm).getAge();
+        }
+
+        // 通过 in 判断来进行类型保护
+        function getParamsDemo(first: Form | ParamsForm) {
+          if ('getName' in first) {
+            first.getName()
+          } else {
+            first.getAge();
+          }
+        }
+
+        // 返回字符串, 可通过typeof 进行类型保护
+        function getParamsDemo1(first: Form | ParamsForm, second: Form | ParamsForm) {
+          if (typeof first.name === 'string' || second.name === 'string') {
+            return `${first.name}${second.name}`;
+          }
+        }
+
+    }
